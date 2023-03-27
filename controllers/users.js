@@ -13,6 +13,7 @@ const getAllUsers = (req, res) => {
 const getUserById = (req, res) => {
   // SELECT USERS WHERE ID = <REQ PARAMS ID>
   let sql = "QUERY GOES HERE"
+
   // WHAT GOES IN THE BRACKETS
   sql = mysql.format(sql, [])
 
@@ -25,6 +26,7 @@ const getUserById = (req, res) => {
 const createUser = (req, res) => {
   // INSERT INTO USERS FIRST AND LAST NAME 
   let sql = "QUERY GOES HERE"
+
   // WHAT GOES IN THE BRACKETS
   sql = mysql.format(sql, [])
 
@@ -37,6 +39,7 @@ const createUser = (req, res) => {
 const updateUserById = (req, res) => {
   // UPDATE USERS AND SET FIRST AND LAST NAME WHERE ID = <REQ PARAMS ID>
   let sql = ""
+
   // WHAT GOES IN THE BRACKETS
   sql = mysql.format(sql, [])
 
@@ -49,6 +52,7 @@ const updateUserById = (req, res) => {
 const deleteUserByFirstName = (req, res) => {
   // DELETE FROM USERS WHERE FIRST NAME = <REQ PARAMS FIRST_NAME>
   let sql = ""
+  
   // WHAT GOES IN THE BRACKETS
   sql = mysql.format(sql, [])
 

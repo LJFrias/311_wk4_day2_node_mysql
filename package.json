@@ -1,19 +1,21 @@
 {
-  "name": "311_wk2_day2_express-continued",
+  "name": "311_wk4_day2_node_mysql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js"
+    "start": "node ./index.js",
+    "dev" : "nodemon ./index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.14.0",
-    "mysql": "^2.17.1",
-    "nodemon": "^1.18.11"
+    "mysql": "^2.17.1"
   }
 }
