@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+img {
+    margin: 10px, 100px, 10px, 100px;
+    height: 250px;
+    width: 300px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}

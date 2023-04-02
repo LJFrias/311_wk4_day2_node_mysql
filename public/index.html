@@ -8,7 +8,21 @@
     <title>Welcome to Checkpoint 1</title>
 </head>
 <body>
-    <h1>It Works!!</h1>
-   
+    <div class="pic">
+    <h1>311 Checkpoint 1</h1>
+    <img src="./charwizard.png" alt="charwizard">
+    </div>
+    <p class="title">This backend express/sql appincludes the following routes:</p>
+    <h3>GET /users</h3>
+        <p>Will provide a list of all the users from the database with and id, first name, last name, address, city, county, state, zip, primary phone, secondary phone, and email</p>
+    <h3>GET /users/:id</h3>
+        <p>Will provide you with a single user by id. Provided they exist</p>
+    <h3>POST /users</h3>
+        <p>Will allow you to add an entry for a new user that will be assigned an ID and returned to you as long as you provide the first name, last name, address, city, county, state, zip, primary phone, secondary phone, and email.</p>
+    <h3>PUT /users/:id</h3>
+        <p>Will allow you to update a specific user's first and last name with the new information specified in the body of the request. Provided they exist.</p>
+    <h3>DELETE /users/first_name</h3>
+        <p>Will allow you to delete a user or users from the database by specifyig the first name in the body of the request</p>
+    <p class="title">All routes tested in Postman</p>    
 </body>
 </html>
